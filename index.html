@@ -6,53 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Travel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app">
         <div class="app__header">
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">
-                            <img src="./assets/img/logo.png" alt="" class="navbar-item__link-logo">
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">Home</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">Packages</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">Shop</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">About us</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">Pages</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">News</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">Contact</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link">Book now</a>
-                    </li>
+            <div class="grid">
+                <nav class="navbar">
+                    <a href="/" class="navbar__logo-link">
+                        <img src="./assets/img/logo.png" alt="" class="navbar__logo-img">
+                    </a>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="/" class="navbar-item__link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link">Packages</a>
 
-                </ul>
-                <div class="navbar-icon">
-                    <i class="fas fa-bars"></i>
+                            <ul class="subnav">
+                                <li class="subnav__item subnav__item--hot">
+                                    <a href="" class="subnav__item-link">Search 1</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Search 2</a>
+                                </li>
+                                <li class="subnav__item subnav__item--has-2nd-subnav">
+                                    <a href="" class="subnav__item-link">Tour Package</a>
+                                    <i class="icon-2nd-subnav fas fa-caret-right"></i>
+
+                                    <ul class="subnav subnav-sub">
+                                        <li class="subnav__item subnav__item--best">
+                                            <a href="" class="subnav__item-link">Carousel</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Custom Map</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">360 Panorama</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Default</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Destination</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Typology</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link">Shop</a>
+
+                            <ul class="subnav">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Archive</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Single Product</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Cart</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Checkout</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link">About us</a>
+
+                            <ul class="subnav">
+                                <li class="subnav__item subnav__item--new">
+                                    <a href="" class="subnav__item-link">About Us</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">About Us 2</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">About Us 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link">Pages</a>
+
+                            <ul class="subnav">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Services</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Argency Tours</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Testimonials</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Promotions</a>
+                                </li>
+                                <li class="subnav__item subnav__item--hot">
+                                    <a href="" class="subnav__item-link">Fraq</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Coming Soon</a>
+                                </li>
+                                <li class="subnav__item subnav__item--has-2nd-subnav">
+                                    <a href="" class="subnav__item-link">About Us</a>
+                                    <i class="icon-2nd-subnav fas fa-caret-right"></i>
+
+                                    <ul class="subnav subnav-sub">
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">About Us</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">About Us 1</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">About Us 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item subnav__item--has-2nd-subnav">
+                                    <a href="" class="subnav__item-link">Contact</a>
+                                    <i class="icon-2nd-subnav fas fa-caret-right"></i>
+
+                                    <ul class="subnav subnav-sub">
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Contact</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Contact 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link">News</a>
+
+                            <ul class="subnav">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Archive</a>
+                                </li>
+                                <li class="subnav__item subnav__item--has-2nd-subnav">
+                                    <a href="" class="subnav__item-link">Single Post</a>
+                                    <i class="icon-2nd-subnav fas fa-caret-right"></i>
+
+                                    <ul class="subnav subnav-sub">
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Full Width</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Right Sidebar</a>
+                                        </li>
+                                        <li class="subnav__item">
+                                            <a href="" class="subnav__item-link">Left Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link">Contact</a>
+
+                            <ul class="subnav">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Contact 1</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__item-link">Contact 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="btn navbar-item__btn">Book now</a>
+                        </li>
+    
+                    </ul>
+                    <div class="navbar-icon">
+                        <i class="ti-align-justify"></i>
+                    </div>
+                </nav>
+                <div class="header-content">
+
                 </div>
-            </nav>
+            </div>
         </div>
         <div class="app__container"></div>
         <div class="app__footer"></div>
