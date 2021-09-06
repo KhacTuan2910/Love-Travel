@@ -1,0 +1,42 @@
+/* Header */
+.app__header {
+    background-image: linear-gradient(
+        rgba(41, 201, 241, 0.01),
+        rgba(110, 105, 105, 0.5)
+        ),
+        url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 778px;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-item {
+
+}
+
+.navbar-item__link {
+    color: var(--white-color);
+}
+
+.navbar-item__link-logo {
+    width: 160px;
+}
+
+.navbar-icon i {
+    color: rgba(0, 0, 0, .12);
+}

@@ -1,0 +1,28 @@
+:root {
+    --text-color: #9a9a9a;
+    --text-bold-color: #555;
+    --primary-color: #14b9d5;
+    --white-color: #fff;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
