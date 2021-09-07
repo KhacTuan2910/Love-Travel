@@ -84,17 +84,20 @@
     right: 10px;
     font-size: 2.5rem;
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .sidebar-heading {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 
 .sidebar-heading__sub {
-    margin: 0;
+    display: flex;
+    margin: 0 auto;
     font-size: 1.4rem;
     font-weight: normal;
     color: var(--text-color);
@@ -102,15 +105,18 @@
 }
 
 .sidebar-heading__bold {
-    margin: 0;
+    display: flex;
+    margin: 0 auto;
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--text-bold-color);
     line-height: 35px;
+    letter-spacing: 0;
 }
 
-.sidebar-list {
-
+.sidebar-heading__bold--has-underline.underline::after {
+    bottom: 12px;
+    border-color: #ffd105;
 }
 
 .sidebar-item {
