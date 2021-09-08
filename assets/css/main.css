@@ -53,6 +53,7 @@
 
 .navbar__logo-link {
     margin-right: 40px;
+    outline: none;
 }
 
 .navbar__logo-img {
@@ -77,7 +78,7 @@
     background-color: var(--white-color);
     padding: 20px 30px;
     transform: translateX(100%);
-    transition: all .9s;
+    transition: all .8s;
     visibility: hidden;
     z-index: 10;
 }
@@ -209,16 +210,6 @@
     margin: 0;
 }
 
-.search__heading--has-underline {
-    position: relative;
-    z-index: 1;
-}
-
-.search__heading--has-underline.underline::after {
-    bottom: 10px;
-    border-color: #ba71da;
-}
-
 .search__sub-heading {
     margin: 35px 0 0;
     font-size: 2rem;
@@ -252,6 +243,7 @@
     font-size: 1.8rem;
     color: var(--text-color);
     padding: 6px;
+    cursor: pointer;
 }
 
 .search-type {
@@ -259,12 +251,12 @@
     margin-top: 70px;
 }
 
-.row.search-type-gutters {
+.row.gutters-15 {
     margin-left: -15px;
     margin-right: -15px;
 }
 
-.row.search-type-gutters .col{
+.row.gutters-15 .col{
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -273,7 +265,11 @@
     position: relative;
     width: calc(100% -30px);
     padding-top: 100%;
-    background-color: rgba(0,0,0,0.26);
+    background-color: rgba(0,0,0,0.25);
+}
+
+.search-type-item:hover {
+    background-color: rgba(0,0,0,0.3);
 }
 
 .search-type__content {
@@ -302,5 +298,46 @@
     color: var(--white-color);
     margin-top: 16px;
 }
+
+/* App cpntent */
+.app__content {
+    background-color: var(--white-color);
+}
+
+.content-section {
+    width: 1170px;
+    margin: 62px auto;
+}
+
+.section-sub-heading {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--text-color);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.section-heading {
+    margin: 20px 0 0;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    color: var(--text-bold-color);
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.section-list-img {
+    margin-top: 20px;
+}
+
+.section-item.sidebar-packages {
+    margin: 30px 0 0;
+}
+
 
 
