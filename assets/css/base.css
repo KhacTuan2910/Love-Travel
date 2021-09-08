@@ -69,6 +69,7 @@ a {
     min-width: 190px;
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
     display: none;
+    z-index: 2;
 }
 
 .subnav__item {

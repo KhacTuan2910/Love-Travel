@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="app">
-        <div class="app__header">
+        <header class="app__header">
             <div class="grid">
                 <nav class="navbar">
                     <a href="/" class="navbar__logo-link">
@@ -309,12 +309,71 @@
                     </div>
                 </nav>
                 <div class="header-content">
+                    <div class="header-search">
+                        <h2 class="search__heading">
+                            Search your next
+                            <span class="search__heading--has-underline underline">Holiday</span>
+                        </h2>
+                        <h3 class="search__sub-heading">CHECK OUR BEST PROMOTIONS</h3>
+                    </div>
+                    <!-- SEARCH INPUT -->
+                    <div class="search-input">
+                        <select name="location-option" class="search-input__select">
+                            <option  value="destination">Choose your Destination...</option>
+                            <option value="europe">Europe</option>
+                            <option value="europe">   - Italy</option>
+                            <option value="europe">   - Netherlands</option>
+                            <option value="Asian">Asian</option>
+                            <option value="Asian">   - Thailandia</option>
+                            <option value="USA">United States</option>
+                            <option value="Oceania">Oceania</option>
+                        </select>
+                        <div class="search-input__icon">
+                            <i class="ti-search"></i>
+                        </div>
+                    </div>
 
+                    <div class="search-type">
+                        <div class="row search-type-gutters">
+                            <div class="col l-3">
+                                <a href="#" class="search-type-item">
+                                    <div class="search-type__content">
+                                        <img src="./assets/img/search-type/search-type-relax.png" alt="" class="search-type__img">
+                                        <h4 class="search-type__text">Relax</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3">
+                                <a href="#" class="search-type-item">
+                                    <div class="search-type__content">
+                                        <img src="./assets/img/search-type/search-type-cultural.png" alt="" class="search-type__img">
+                                        <h4 class="search-type__text">cultural</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3">
+                                <a href="#" class="search-type-item">
+                                    <div class="search-type__content">
+                                        <img src="./assets/img/search-type/search-type-sport.png" alt="" class="search-type__img">
+                                        <h4 class="search-type__text">sport</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3">
+                                <a href="#" class="search-type-item">
+                                    <div class="search-type__content">
+                                        <img src="./assets/img/search-type/search-type-history.png" alt="" class="search-type__img">
+                                        <h4 class="search-type__text">history</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="app__container"></div>
-        <div class="app__footer"></div>
+        </header>
+        <main class="app__container"></main>
+        <footer class="app__footer"></footer>
     </div>
 </body>
 </html>
