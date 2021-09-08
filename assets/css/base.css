@@ -32,6 +32,9 @@ a {
 
 /* Button */
 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     cursor: pointer;
     border: none;
@@ -139,7 +142,7 @@ a {
     line-height: 1.6rem;
     padding: 0 6px;
     color: var(--white-color);
-    background-color: #14b9d5;
+    background-color: var(--primary-color);
     border-radius: 4px;
     letter-spacing: 2px;
 }
@@ -156,7 +159,7 @@ a {
     line-height: 1.6rem;
     padding: 0 6px;
     color: var(--white-color);
-    background-color: #14b9d5;
+    background-color: var(--primary-color);
     border-radius: 4px;
     letter-spacing: 2px;
 }
@@ -195,7 +198,7 @@ a {
 .packages--hover {
     /* display: none; */
     display: flex;
-    background-color: #14b9d5;
+    background-color: var(--primary-color);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -224,7 +227,7 @@ a {
 }
 
 .packages__btn-view {
-    color: #14b9d5;
+    color: var(--primary-color);
     margin-top: 20px;
 }
 
