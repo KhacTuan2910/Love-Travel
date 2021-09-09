@@ -3,6 +3,7 @@
     --text-bold-color: #555;
     --primary-color: #14b9d5;
     --white-color: #fff;
+    --border-color: #f1f1f1;
 
     --height-header: 868px;
     --height-nav-header: 104px;
@@ -28,6 +29,23 @@ ul {
 a {
     text-decoration: none;
     display: block;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.clear {
+    clear: both;
+}
+
+.pull-left {
+    text-align: left !important;
+}
+
+.mt-35 {
+    margin-top: 35px !important;
+}
+
+.text--bold {
+    font-weight: bold !important;
 }
 
 /* Button */

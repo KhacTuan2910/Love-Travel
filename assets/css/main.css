@@ -145,13 +145,13 @@
     padding-left: 30px;
 }
 
-.sidebar-item__location-name {
+.package-item__location-name {
     font-size: 2rem;
     color: var(--primary-color);
     margin-top: 5px;
 }
 
-.sidebar-item__location-area {
+.package-item__location-area {
     font-size: 1.5rem;
     color: var(--text-color);
     margin-top: 10px;
@@ -409,6 +409,244 @@
     font-weight: bold;
     letter-spacing: 0;
 }
+
+/* section beach */
+.beach-info__content {
+    display: block;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 27px;
+    font-weight: normal;
+    margin: 20px 0 0;
+    letter-spacing: 1px;
+}
+
+.beach-info__price {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: var(--text-bold-color);
+    font-weight: normal;
+    margin: 30px 0;
+    letter-spacing: 1px; 
+}
+
+.beach-info__price--has-line {
+    color: #dadada;
+    text-decoration: line-through;
+}
+
+.beach-info__price--per-person {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.beach-info__btn {
+    background-color: #1bbc9b;
+    color: var(--white-color);
+}
+
+.section__beach-type {
+    margin: 30px 0;
+}
+
+.section__beach-type-item {
+    position: relative;
+    padding-left: 70px;
+    letter-spacing: 1px;
+}
+
+.section__beach-type-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.section__beach-type-name {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    color: var(--text-bold-color);
+    margin: 0;
+}
+
+.section__beach-type-description {
+    font-size: 1.4rem;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 20px 0;
+    color: var(--text-color);
+}
+
+.section__beach-type-link {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+/* Section package */
+.section__package-list {
+    margin-top: 50px;
+}
+
+.section__package-item {
+    border: 1px solid var(--border-color);
+}
+
+.section__package-img {
+    position: relative;
+    width: 100%;
+}
+
+.section__package-img-bgr {
+    width: 100%;
+    display: block;
+}
+
+.section__package-img-link {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    top: 100%;
+    right: 20px;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.section__package-img-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.section__package-info {
+    padding: 30px;
+}
+
+.section__package-place {
+    padding-bottom: 20px;
+}
+
+.section__package-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: 15px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    letter-spacing: 2px;
+}
+
+.package-price-type__text-1 {
+    color: var(--text-bold-color);
+}
+
+.package-price-type__text-2 {
+    color: var(--text-bold-color);
+}
+
+.package-price-type__give {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding: 0 8px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    color: var(--white-color);
+    position: relative;
+}
+
+.package-price-type__give:hover .package-price-type__give-list{
+    display: block;
+}
+
+.package-price-type__give-list {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    padding: 10px;
+    background-color: var(--text-bold-color);
+    display: none;
+}
+
+.package-price-type__give-list::after {
+    content: "";
+    position: absolute;
+    top: -14px;
+    border-width: 7px 7px;
+    border-style: solid;
+    border-color: transparent transparent var(--text-bold-color);
+}
+
+.package-price-type__give-item {
+    margin: 0;
+}
+
+.package-price__num {
+    color: var(--text-bold-color);
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-top: 3px;
+}
+
+.package-price__num--old {
+    font-size: 2rem;
+    color: var(--text-color);
+    text-decoration: line-through;
+}
+
+.section__package-description {
+    font-size: 14px;
+    line-height: 27px;
+    height: 108px;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    margin: 20px 0;
+
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.section__package-btn {
+    padding: 5px 20px;
+    line-height: 27px;
+    color: var(--white-color);
+}
+
+.section__package-item--yelow .section__package-img-link {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.section__package-item--pink .section__package-img-link  {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.section__package-item--violet .section__package-img-link  {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.section__package-item--yelow .package-price-type__give,
+.section__package-item--yelow .section__package-btn {
+    background-color: #ffd205;
+}
+
+.section__package-item--pink .package-price-type__give,
+.section__package-item--pink .section__package-btn {
+    background-color: #f76570;
+}
+
+.section__package-item--violet .package-price-type__give,
+.section__package-item--violet .section__package-btn {
+    background-color: #ba71da;
+}
+
 
 
 
