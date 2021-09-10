@@ -411,6 +411,10 @@
 }
 
 /* section beach */
+.section__beach-infor {
+    padding-top: 10px;
+}
+
 .beach-info__content {
     display: block;
     color: var(--text-color);
@@ -482,6 +486,53 @@
 .section__beach-type-link {
     font-size: 1.4rem;
     color: var(--primary-color);
+}
+
+.section__beach-slide {
+    position: relative;
+    margin-bottom: 72px;
+}
+
+/* Beach countdown */
+.beach-slide__countdown {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 50%);
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.beach-slide__item {
+    padding: 0 30px;
+}
+
+.beach-slide__separate {
+    font-size: 50px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, .05);
+}
+
+.beach-slide__num {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 3.5rem;
+}
+
+.beach-slide__unit {
+    margin: 7px 0 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.3rem;
+    text-transform: uppercase;
 }
 
 /* Section package */

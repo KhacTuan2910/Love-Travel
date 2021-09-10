@@ -561,7 +561,64 @@
                             <a href="" class="btn btn-big beach-info__btn">book now</a>
                         </div>
                         <div class="col l-8 section__beach-slide">
-
+                            <!-- Image slide start -->
+                            <div class="slider">
+                                <div class="slides">
+                                    <!-- Radio button start -->
+                                    <input hidden type="radio" name="radio-button" id="radio1" class="input--radio">
+                                    <input hidden type="radio" name="radio-button" id="radio2" class="input--radio">
+                                    <input hidden type="radio" name="radio-button" id="radio3" class="input--radio">
+                                    <!-- Radio button end -->
+                                    <!-- Slide images start -->
+                                    <div class="slide first">
+                                        <img src="./assets/img/slider/slider-1.jpg" alt="" class="slide__img">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./assets/img/slider/slider-2.jpg" alt="" class="slide__img">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./assets/img/slider/slider-3.jpg" alt="" class="slide__img">
+                                    </div>
+                                    <!-- Slide images end -->
+                                    <!-- Automatic navigation start -->
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn1"></div>
+                                        <div class="auto-btn2"></div>
+                                        <div class="auto-btn3"></div>
+                                    </div>
+                                    <!-- Automatic navigation end -->
+                                </div>
+                                <!-- Manual navigation start -->
+                                <div class="navigation-manual">
+                                    <label for="radio1" class="manual-btn"></label>
+                                    <label for="radio2" class="manual-btn"></label>
+                                    <label for="radio3" class="manual-btn"></label>
+                                </div>
+                                <!-- Manual navigation end -->
+                            </div>
+                            <!-- Image slide end -->
+                            <!-- Beach slide time -->
+                            <div class="beach-slide__countdown">
+                                <div class="beach-slide__item beach-slide__day">
+                                    <p class="beach-slide__num">000</p>
+                                    <p class="beach-slide__unit">days</p>
+                                </div>
+                                <div class="beach-slide__separate">/</div>
+                                <div class="beach-slide__item beach-slide__hour">
+                                    <p class="beach-slide__num">00</p>
+                                    <p class="beach-slide__unit">hours</p>
+                                </div>
+                                <div class="beach-slide__separate">/</div>
+                                <div class="beach-slide__item beach-slide__minute">
+                                    <p class="beach-slide__num">00</p>
+                                    <p class="beach-slide__unit">minutes</p>
+                                </div>
+                                <div class="beach-slide__separate">/</div>
+                                <div class="beach-slide__item beach-slide__second">
+                                    <p class="beach-slide__num">00</p>
+                                    <p class="beach-slide__unit">seconds</p>
+                                </div>
+                            </div>                          
                         </div>
                     </div>
                     <div class="row gutters-15 section__beach-type">
@@ -903,5 +960,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="./assets/js/slider.js"></script>
 </body>
 </html>
