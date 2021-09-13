@@ -1,3 +1,6 @@
+.app {
+    overflow: hidden;
+}
 /* Header */
 .app__header {
     background-image: linear-gradient(
@@ -8,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
     width: 100%;
 }
 
@@ -205,7 +212,7 @@
 
 .search__heading {
     font-size: 5rem;
-    line-height: 5rem;
+    line-height: 5.8rem;
     font-weight: bold;
     margin: 0;
 }
@@ -213,6 +220,7 @@
 .search__sub-heading {
     margin: 35px 0 0;
     font-size: 2rem;
+    line-height: 2rem;
     font-weight: normal;
     letter-spacing: 4px;
 }
@@ -233,6 +241,7 @@
     outline: none;
     appearance: none;
     cursor: pointer;
+    -webkit-appearance:none;
 }
 
 .search-input__icon {
