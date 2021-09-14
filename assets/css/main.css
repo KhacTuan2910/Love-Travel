@@ -7,14 +7,13 @@
         rgba(121, 121, 121, 0.13), 
         rgba(110, 105, 105, 0.5)
         ),
-        url(/assets/img/header-background.jpg);
+        url(../img/header-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* background-attachment: fixed; */
     width: 100%;
 }
 
